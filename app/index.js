@@ -1,9 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import AutoComplete from './components/AutoComplete'
+import MyAutoComplete from './components/MyAutoComplete'
 
 let App =(props)=>{
-    return <AutoComplete/>
+    return <MyAutoComplete/>
 }
 
 ReactDOM.render(<App/>,document.getElementById('app'));
